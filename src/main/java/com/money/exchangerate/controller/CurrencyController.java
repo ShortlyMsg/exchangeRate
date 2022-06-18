@@ -54,11 +54,11 @@ public class CurrencyController {
     }
     @Value("${api.key}")
     private String apiKey;
-    // https://evds2.tcmb.gov.tr/service/evds/series=TP.DK.USD.A-TP.DK.EUR.A&startDate=01-06-2022&endDate=01-06-2022&type=json&key=3iscFMlsIy
+    // https://evds2.tcmb.gov.tr/service/evds/series=TP.DK.USD.A-TP.DK.EUR.A&startDate=01-06-2022&endDate=01-06-2022&type=json&key=*****
 
     @Value("${access.key}")
     private String accessKey;
-    //https://api.currencylayer.com/live?access_key=13qUaoGrYwsqmFIlECRMwI3xdeiQRNIi
+    //https://api.currencylayer.com/live?access_key=*****
 
     @GetMapping("/currency")
     public List<Currency> getCurrency() throws IOException {
