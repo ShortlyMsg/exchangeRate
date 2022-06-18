@@ -8,8 +8,10 @@ localhost:8080/api/currency/
 # GET methods #
 localhost:8080/api/currency/all
 
-# doesnt working
+* Get Daily data from TCMB *
+localhost:8080/api/currency/object
+
+* Not working as it should *
 localhost:8080/api/currency/currency
 
-# Get Daily data from TCMB
-localhost:8080/api/currency/object
+
