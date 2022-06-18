@@ -15,6 +15,6 @@ public class CurrencyDto {
     private String source;
     private LocalDateTime date;
     private String name;
-    private double buyingPrice;
-    private double sellingPrice;
+    private double usdPrice;
+    private double eurPrice;
 }

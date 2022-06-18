@@ -37,17 +37,4 @@ public class CurrencyDtoConverter {
                 .collect(Collectors.toList());
     }*/
 
-
-
-    /*public CurrencyDto convertToCurrencyDto2(Currency from) {
-        CurrencyDto currencyDto = new CurrencyDto();
-        currencyDto.setSource(from.getSource());
-        currencyDto.setDate(from.getDate());
-        currencyDto.setName(from.getName());
-        currencyDto.setBuyingPrice(from.getBuyingPrice());
-        currencyDto.setSellingPrice(from.getSellingPrice());
-        return currencyDto;
-
-    }*/
-
 }

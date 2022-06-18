@@ -20,9 +20,12 @@ public class Currency {
     @Id
     private long id;
     private String source;
+    @JsonProperty("Tarih")
     private LocalDateTime date;
     private String name;
-    private double buyingPrice;
-    private double sellingPrice;
+    @JsonProperty("P_DK_USD_A")
+    private double usdPrice;
+    @JsonProperty("P_DK_EUR_A")
+    private double eurPrice;
 
 }
